@@ -7,11 +7,11 @@
 date=$(date + "%T")
 
 echo "Alright, I'll start copying the Syslog for ya! One sec..."
-cp -r /var/log/syslog C:\Users\Mr.Bloodedge\Documents
+cp -r /var/log/syslog C:\Users\Vincent\Documents
 sleep 1.8
 
 echo "Moving over to the Documents folder really quick..."
-cd C:\Users\Mr.Bloodedge\Documents
+cd C:\Users\Vincent\Documents
 sleep 1.8
 
 echo "Thanks for being so patient, by the way."
@@ -21,4 +21,4 @@ echo "Just adding the date and time to the filename now..."
 mv syslog syslog "$(date + "%Y%m%d_%T")"
 sleep 1.8
 
-echo "All done!"
+echo "All done!".
