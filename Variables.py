@@ -3,4 +3,5 @@
 x = "The Righteous One"
 y = "Computer Blue"
 
-print ("Until I find ",x,y)
+print ("Till I find" ,x)
+print (y)
