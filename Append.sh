@@ -3,6 +3,7 @@
 # Script Name: Append
 # Author: Vincent Bailey
 # Last Revision: 8/30/2021
+# A script that copies the system log file to the user's current directory.
 
 date=$(date + "%T")
 
