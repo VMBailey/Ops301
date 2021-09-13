@@ -38,6 +38,7 @@ else:
     print("And both of these numbers are somewhere between 200 and 300. Such a mystery....")
     time.sleep(2.5)
 
+
 print("Can you guess what the number is? ")
 
 Guess=input()
